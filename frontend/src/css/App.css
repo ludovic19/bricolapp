@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    color : #38726C;
+    text-align: center;
+    margin: 2% 0 2% 0;
+    font-family: Coolvetica, monospace;
+    /* ------------------------- animationde l'écriture  ------------------------- */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    /*animation: typing 3.5s steps(37)*/
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* ------------------------- Formulaires et boutons ------------------------- */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    /* margin-top: 7%; */
+}
+
+form input {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    margin-bottom: 30px;
+    
+    width: 70vw;
+    max-width: 500px;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:2px solid #38726C;
+    padding:10px;
+    
+}
+
+form input[type="radio"]{
+    width: auto; 
+    flex-direction: row;
+    margin: 0 10px 0 0;
+}
+
+form input[type="checkbox"]{
+    width: auto; 
+    flex-direction: row;
+    margin: 0 10px 0 0;
+}
+
+form input[type="submit"]{ 
+    background-color : #38726C;
+    border: none;
+    border-radius:10px;
+    border: 1px solid #38726C;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover{
+    background-color : #fff;
+    color: #38726C;
+    border:1px solid #38726C;
+
+}
+/* ---------------------------- boutons "valider" --------------------------- */
+
+.validation-button{
+    width: 5em;
+     min-height: 30px;
+    background-color :#38726C ;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.validation-button:hover{
+    background-color : #fff;
+    color: #38726C;
+    border:1px solid #38726C;
+}
+
+/* ----------------------------- media querries ----------------------------- */
+@media only screen and (max-width: 400px) {
+    h1 {
+    font-size: 1.5em;
+    }
+    }
+
+/* ------------------------ paramètres de l'animation ----------------------- */
+@keyframes typing {
+    from {width:0}
+    to {width:100%}
+}
+ 
+
+/* ------------------------------ code couleurs ----------------------------- */
+
+/* bleu : #38726C
+ orange :  #F28123
+ jaune : #F7F052
+
+
+
+/*------------------- polices -------------------- */
+@font-face {
+    font-family: "Coolvetica";
+    src: local("Coolvetica"), url(../fonts/coolvetica.otf) format("opentype");
+}

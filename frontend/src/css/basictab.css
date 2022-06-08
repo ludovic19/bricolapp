@@ -1,0 +1,18 @@
+.css-heg063-MuiTabs-flexContainer{
+    
+    justify-content: center;
+    display: flex;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+/* .css-1gsv261 {
+    background-color :blueviolet;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+} */
+
+.label{
+    background-color:red;
+}

@@ -1,0 +1,10 @@
+.user-accept-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-accept-input label{
+    margin-top: 0;
+}

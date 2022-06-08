@@ -1,0 +1,33 @@
+.anonym-radio {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.anonym-radio div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.anonym-radio div label {
+    margin: 0 0 0 0;
+}
+
+.container select {
+    margin-bottom: 10%;
+    height: 30px;
+    border: 2px solid #F28123;
+    border-radius: 7px;
+    background-color: white;
+    font-weight: bold;
+    color: #F28123;
+    
+}
+ .container label {
+     margin-top : 3%;
+ }

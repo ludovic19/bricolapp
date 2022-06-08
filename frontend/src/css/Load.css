@@ -1,0 +1,25 @@
+.loading-elements{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.logo {
+  width: 200px;
+  height: 200px;
+
+}
+
+h1.loading-title {
+  color: #F28123;
+  animation: typing 3.5s steps(37)
+}
+
+
+/* bleu : #38726C
+ orange :  #F28123
+ jaune : #F7F052
+ */

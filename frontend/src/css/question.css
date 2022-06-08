@@ -1,0 +1,7 @@
+.tabbar{
+    display: none !important;
+}
+
+.container select.question-interest {
+    margin-bottom: 5%;
+}

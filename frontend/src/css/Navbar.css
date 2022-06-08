@@ -1,0 +1,48 @@
+/* -------------------------------------------------------------------------- */
+/*                                   App-bar                                  */
+/* -------------------------------------------------------------------------- */
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  color: #38726c !important;
+  background-color: white !important;
+}
+.css-ancrnh-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: white !important;
+  
+}
+.css-1f2xuhi-MuiDrawer-docked {
+  width: 0px !important;
+}
+/* -------------------------------------------------------------------------- */
+/*                               Menu Hamburger                               */
+/* -------------------------------------------------------------------------- */
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: rgba(242, 129, 35, 0.5) !important;;
+}
+
+button .bouton-menu-lateral{
+  color: rgb(56, 114, 108);
+}
+
+ /* -------------------------------------------------------------------------- */
+ /*                                    Logo                                    */
+ /* -------------------------------------------------------------------------- */
+ .logonavbar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Menu Profil                                */
+/* -------------------------------------------------------------------------- */
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 2rem !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover{
+  /* background-color: rgba(56, 114, 108, 0.5) !important; */
+  background-color: rgba(242, 129, 35, 0.5)  !important; 
+
+}
+
+

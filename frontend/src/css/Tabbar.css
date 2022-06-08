@@ -1,0 +1,7 @@
+.heading_n36yil{
+    height: calc(100vh - 86,5px) !important;
+    display:flex !important;
+    flex-direction: column !important;
+    align-items:center !important;
+    justify-content:space-between !important;  
+}

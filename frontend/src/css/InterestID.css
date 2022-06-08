@@ -1,0 +1,43 @@
+.icontchat {
+  width: 32px;
+  height: 32px;
+}
+
+.interestId-title{
+  color: #38726C;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-info{
+  color: #F28123;
+  font-weight: bold;
+}
+
+.user-question{
+  padding-top: 20px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.username{
+  text-align: center;
+  border-color: #38726C;
+}
+
+#outlined-basic{
+  border-color: #38726C;
+}
+
+.guest-username{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.interest-card{
+  margin-right: 10%;
+  margin-left: 10%;
+}

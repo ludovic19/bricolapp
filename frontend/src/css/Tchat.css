@@ -1,0 +1,173 @@
+div.tchat-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 0 5%;
+}
+
+div.tchat-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
+}
+
+div.tchat-view {
+  width: 100%;
+  margin-right: 20px;
+}
+
+div.tchat-connected {
+  min-width: 200px;
+}
+
+div.tchat-user {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+div.tchat-user span {
+  display: flex;
+  align-items: center;
+}
+
+div.tchat-envoi {
+  display: flex;
+  flex-direction: row;
+}
+
+div.tchat-envoi form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: left;
+  width: 100%;
+}
+
+
+.tchat-envoi form button {
+  margin-right: 20px;
+}
+
+.tchat-envoi form textarea {
+  display: flex;
+  width: 50%;
+}
+
+
+div.bubble-container {
+  width: 100%;
+  display: flex;
+}
+
+div.bubble-container-left {
+  justify-content: flex-start !important;
+}
+
+div.bubble-container-right {
+  justify-content: flex-end !important;
+}
+
+
+.bubble {
+  border: 0.5px solid black;
+  borderRadius: 10px;
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+.bubble-container-left .talk-bubble {
+  background-color: #f7f052;
+}
+
+.bubble-container-right .talk-bubble {
+  background-color: #38726c;
+  color: white;
+}
+
+.tri-right.left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: #f7f052 #f7f052 transparent transparent;
+}
+
+.tri-right.right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: #38726c transparent transparent #38726c;
+}
+
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.talkauthor {
+  padding: 1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.talktext p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+
+
+
+
+
+
+
+
+/*
+.tchat-child1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.tchat-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.tchat-form {
+  display: flex;
+  flex-direction: row;
+  width: 80 vw;
+}
+
+#tchat-messagerie {
+  height: 45vh;
+  overflow-y: scroll;
+}
+*/
